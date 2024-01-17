@@ -1,0 +1,113 @@
+.title {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* counter */
+
+.counter {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-counter {
+    font-size: 30px;
+}
+
+.computer-counter {
+    font-size: 30px;
+}
+
+/* user-moves */
+
+.game-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-user {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+
+.img-computer {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+
+/* buttons */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.buttons-title {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.rock {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    box-shadow: 3px 0px 10px 2px #000;
+    background: url(img/rock.png) center no-repeat;
+}
+
+.scissors {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    box-shadow: 3px 0px 10px 2px #000;
+    background: url(img/scissors.png) center no-repeat;
+}
+
+.paper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    box-shadow: 3px 0px 10px 2px #000;
+    background: url(img/paper.png) center no-repeat;
+}
+
+/* .rock:hover {
+    box-shadow: 3px 0px 10px 2px #f50c0c;
+} */
+
+.rock:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.paper:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.scissors:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
